@@ -5,24 +5,6 @@ import './index.css'
 class ShowHide extends Component {
   state = {isFirstNameCardHidden: true, isLastNameCardHidden: true}
 
-  showFirstName = () => {
-    const {isFirstNameCardHidden} = this.state
-
-    if (isFirstNameCardHidden === false) {
-      return <p className="card">Joe</p>
-    }
-    return null
-  }
-
-  hideFirstName = () => {
-    const {isFirstNameCardHidden} = this.state
-
-    if (isFirstNameCardHidden === true) {
-      return null
-    }
-    return <p className="card">Joe</p>
-  }
-
   onShowHideFirstNameButtonClick = () => {
     this.setState(prevState => ({
       isFirstNameCardHidden: !prevState.isFirstNameCardHidden,
