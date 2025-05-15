@@ -1,5 +1,3 @@
-In this project, let's build a **Show/Hide App** by applying the concepts we have learned till now.
-
 ### Refer to the image below:
 
 <br/>
